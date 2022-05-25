@@ -1,10 +1,6 @@
-const mdLinks = require('../');
-
-
+/* eslint-disable no-undef */
 describe('mdLinks', () => {
-
-  it('should...', () => {
+  it('should.', () => {
     console.log('FIX ME!');
   });
-
 });

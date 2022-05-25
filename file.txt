@@ -1,0 +1,40 @@
+Abre el txt file
+{
+  "name": "lim017-md-links",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "md-links": "./src/cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon ./src/api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yohanaFalconi/LIM017-md-links.git"
+  },
+  "keywords": [],
+  "author": "Yohana Falconi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yohanaFalconi/LIM017-md-links/issues",
+    "email": "yohanafalconivivas@gmail.com"
+  },
+  "homepage": "https://github.com/yohanaFalconi/LIM017-md-links#readme",
+  "dependencies": {
+    "figlet": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.0",
+    "nodemon": "^2.0.16"
+  }
+}
